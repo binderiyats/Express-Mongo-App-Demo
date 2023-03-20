@@ -1,0 +1,23 @@
+GET http://localhost:8080/users
+
+###
+GET http://localhost:8080/users/641182eb136eddd477dad4a7
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+    "name": "Javkhlant",
+    "email": "javkhlant.n@pinecone.mn"
+}
+
+###
+PATCH  http://localhost:8080/users/64118336136eddd477dad4aa
+Content-Type: application/json
+
+{
+    "name": "Javkhaa",
+    "email": "javkhlant.n@pinecone.mn"
+}
+
